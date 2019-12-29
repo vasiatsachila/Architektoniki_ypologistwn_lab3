@@ -23,7 +23,12 @@ b.
 
 
 ### ερώτημα 2
-1.
+1. To Area βρίσκεται στο αρχείο results.txt που τρέξαμε για print level 5.                                    
+To Energy το βρίσκουμαι τρέχοντας την παρακάτω εντολή για κάθε benchmark για κάθε αλλαγή που κάναμε στην 2η εργασία:
+print_energy.py <mcpat out file> <gem5 stats file> 
+ όπου -> mcpat out file = mycpu_    .xml (Πχ. mycpu_bzip2---cacheline=16.xml                                    
+      -> stats file= τα stats.txt αρχεία που προκύψαν απο την 2η εργασια.
+  
 
 2. Παρακάτω παραθέτουμε γραφήματα  που παρουσιάζουν την σχέση των συντελεστών που "πειράξαμε" στη δεύτερη εργασία με το area και το power dynamic(peak power):        (Τις πληροφορίες για τους συντελεστές area και peak power τις αντλήσαμε απο τα αρχεια results.txt που προκύψαν εκτελώντας την εντολή 
 ./mcpat -infile my_cpu.xml -print_level 5 > results.txt)
