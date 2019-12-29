@@ -23,3 +23,27 @@ b.
 
 
 ### ερώτημα 2
+1.
+
+2. Παρακάτω παραθέτουμε γραφήμα
+τα  που παρουσιάζουν την σχέση των συντελεστών που "πειράξαμε" στη δεύτερη εργασία με το area και το power dynamic(peak power):        (Τις πληροφορίες για τους συντελεστές area και peak power τις αντλήσαμε απο τα αρχεια results.txt που προκύψαν εκτελώντας την εντολή 
+./mcpat -infile my_cpu.xml -print_level 5 > results.txt)
+
+#### **bzip2**                                                                                     
+![What is this](area-bzip.png)                                                                                             
+![What is this](power-bzip2.png)                                                                             
+                                                                                                                   
+#### **mcf**                                                                                                                             
+![What is this](area-mcf.png)                                         
+![What is this](power-mcf.png)                                      
+
+#### **hmmer**                                                                                                                          
+![What is this](area-hmmer.png)                              
+![What is this](power-hmmer.png)                              
+                                                             
+#### **lbm**                                                                                                                      
+![What is this](area-lbm.png)                        
+![What is this](power-lbm.png)                                                 
+
+
+3.Παρατηρούμε οπως είναι προφανές απο τα γραφήματα οτι οι τιμές των area και peak power δεν μεταβάλλωνται καθόλου απο τις αλλαγές που είχαμε κάνει στην εργασία 2 με στόχο την βελτίωση της αποδοτικότητας του συστήματος μας. Άρα καταλήγουμε στο συμπέρασμα οτι οι μεταβλητές αύτες είναι ανεξάρτητές απο τα χαρακτηριστικά του συστήματος(cacheline size ,associativity,block size).Φαίνεται απο τα αρχεία results.txt ότι οι συντέλεστές αυτοί όντως είναι ανεξάρητοι όπως όλα τα χαρακτηριστικά του με εξαίρεση το runtime dynamic που είναι το μοναδίκο που επηρεάζεται απο τις αλλαγές της προηγούμενης εργασίάς.
